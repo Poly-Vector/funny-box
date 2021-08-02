@@ -4,7 +4,6 @@ a project to make a simple and easy to use modern server sided boombox on roblox
 how to add funny box into your game:
 
 //local side
-
 create a Tool instance in your game.
 
 insert a Part and parent it to the tool.
@@ -18,7 +17,6 @@ create a ui parented to the Tool with a play and stop TextButton parented to a f
 insert the PlayClicked.lua file as a LocalScript into the play button and the StopClicked.lua file as a LocalScript into the stop button.
 
 //server side
-
 insert the Mount.lua and RadioServer.lua files as Scripts into ServerScriptService.
 
 create two remote events in ReplicatedStorage (with the names: "MountToBack" and "Radio").
